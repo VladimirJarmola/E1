@@ -1,0 +1,54 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 20px 30px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header{
+    display: inline;
+    background-color:#101010;
+}
+
+.inner-header{
+
+    background-color:#101010;
+}
+
+.logo-container{
+    display:inline-block;
+    background-color: #101010;
+    color: white;
+    padding: 0px 0px 0px 50px;
+}
+
+.content{
+    padding-left: 200px;
+    display: table-cell;
+    vertical-align: text-bottom;
+    font-size: 20px;
+    width: 60%
+}
+
+.foto{
+    float: left;
+    margin: 5px;
+   }
